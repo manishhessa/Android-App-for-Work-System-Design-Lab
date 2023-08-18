@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experiment3">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:contentDescription="@string/onethree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/onethree" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:contentDescription="@string/twothree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/twothree" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:contentDescription="@string/threethree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/threethree" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:contentDescription="@string/fourthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourthree" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:contentDescription="@string/fivethree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fivethree" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:contentDescription="@string/sixthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixthree" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:contentDescription="@string/seventhree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/seventhree" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:contentDescription="@string/eightthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/eightthree" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:contentDescription="@string/ninethree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ninethree" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:contentDescription="@string/tenthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/tenthree" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:contentDescription="@string/eleventhree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/eleventhree" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:contentDescription="@string/twelvethree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/twelvethree" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:contentDescription="@string/thirteenthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/thirteenthree" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:contentDescription="@string/fourteenthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourteenthree" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:contentDescription="@string/fifteenthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fifteenthre" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

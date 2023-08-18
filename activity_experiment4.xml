@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experiment4">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/fourone"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourone" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:contentDescription="@string/fourtwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourtwo" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:contentDescription="@string/fourthree"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourthree" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:contentDescription="@string/fourfour"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourfour" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:contentDescription="@string/fourfive"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourfive" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:contentDescription="@string/foursix"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/foursix" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:contentDescription="@string/fourseven"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourseven" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:contentDescription="@string/foureight"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/foureight" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:contentDescription="@string/fournine"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fournine" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:contentDescription="@string/fourten"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourten" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:contentDescription="@string/foureleven"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/foureleven" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:contentDescription="@string/fourtwelve"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourtwelve" />
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:contentDescription="@string/fourthirteen"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourthirteen" />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:contentDescription="@string/fourforteen"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourforteen" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

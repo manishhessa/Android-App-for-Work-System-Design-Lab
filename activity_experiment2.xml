@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experiment2">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:contentDescription="@string/onetwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/onetwo" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:contentDescription="@string/twotwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/twotwo" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:contentDescription="@string/threetwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/threetwo" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:contentDescription="@string/fourtwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fourtwo" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:contentDescription="@string/fivetwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/fivetwo" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:contentDescription="@string/sixtwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixtwo" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:contentDescription="@string/seventwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/seventwo" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:contentDescription="@string/eighttwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/eighttwo" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:contentDescription="@string/ninetwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ninetwo" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:contentDescription="@string/tentwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/tentwo" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/eleventwo"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/eleventwo" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:contentDescription="@string/twelvetwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/twelvetwo" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:contentDescription="@string/thrteentwo"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/thirteentwo" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

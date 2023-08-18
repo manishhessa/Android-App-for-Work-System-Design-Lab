@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experiment6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixone"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixone" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixtwo"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixtwo" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixthree"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixthree" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixfour"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixfour" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixfive"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixfive" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixsix"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixsix" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/sixseven"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/sixseven" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
